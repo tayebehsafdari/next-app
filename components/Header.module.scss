@@ -1,0 +1,19 @@
+.ul {
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+
+  .li {
+    &::before {
+      display: none;
+    }
+
+    display: block;
+    background-color: yellow;
+
+    .a {
+      display: block;
+      border: 2px solid red;
+    }
+  }
+}
